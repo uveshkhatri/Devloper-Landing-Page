@@ -331,3 +331,264 @@ nav {
   display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #f8f8fa;
+  }
+  
+  header {
+    background: blue;
+    height: 550px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0px 10px;
+  }
+  
+  .nav-item {
+    color: #ffffff;
+    padding: 20px 5px;
+    font-size: 0.7em;
+  }
+  
+  .nav-item-active {
+    padding: 5px 10px;
+    font-size: 0.7em;
+  }
+  
+  .logo {
+    position: relative;
+    margin-top: -50px;
+    margin-left: 20px;
+    width: 70px;
+  }
+  
+  .header-text {
+    margin-top: 230px;
+    margin-left: 20px;
+  }
+  
+  .header-text h2 {
+    font-size: 1.5em;
+    margin-top: 40px;
+  }
+  
+  .header-text p {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  .header-image {
+    width: 250px;
+    position: absolute;
+    right: 0px;
+    bottom: 360px;
+  }
+  
+  .companies {
+    width: 100%;
+    font-size: 0.7em;
+  }
+  /* api section */
+  .api {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  
+  .api-heading {
+    font-size: 1.5em;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .card-active {
+    background-color: #ffffff;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px 2px #888888;
+  }
+
+  .card{
+    width: 250px;
+    height: 250px;
+  }
+
+  /* blog section */
+  .blog-heading {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 0.8em;
+  }
+  
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blog-card {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 320px;
+    height: 250px;
+    border-radius: 50px 20px 20px 20px;
+    position: relative;
+  }
+  
+  .blog-image img {
+    display: flex;
+    height: 150px;
+  }
+  
+  .blog-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .blog-content h6 {
+    font-size: 0.8em;
+  }
+  
+  .blog-content h3 {
+    font-size: 1em;
+    margin: 8px 0px;
+  }
+  
+  .blog-content small {
+    font-size: 0.8em;
+  }
+  
+  .blog-card-bottom-image {
+    position: absolute;
+    bottom: -30px;
+    right: 200px;
+  }
+  
+  .blog-author {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    font-size: 0.8em;
+  }
+  
+  /* FAQ SECTION */
+  .faq-section {
+    margin-top: 70px;
+    height: 400px;
+  }
+  
+  .faq-content {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  .faq-content h2 {
+    font-size: 1.8em;
+  }
+  
+  .faq-content h4 {
+    margin-top: 20px;
+    font-size: 0.8em;
+  }
+  
+  .faq-image img {
+      display: none;
+  }
+  
+  .faq-content button {
+    background-color: #4b4bf4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* downlod section */
+  .download-section {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 40px;
+  }
+  
+  .download-content h1 {
+    font-weight: bolder;
+  }
+  
+  .download-email input {
+    position: relative;
+    padding: 10px 15px;
+    padding-right: 0px;
+    width: 300px;
+    right: -5px;
+    border: none;
+    background-color: #e9edff;
+    border-radius: 30px;
+    font-size: 0.8em;
+  }
+  
+  .download-email button {
+    position: relative;
+    top: -39px;
+    right: -220px;
+    padding: 10px 6x;
+    font-size: 0.5em;
+    color: #ffffff;
+    background-color: #4b4bf4;
+    border: none;
+    border-radius: 25px ;
+  }
+  
+  /* footer section */
+  .footer-section{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+  }
+  
+  .footer-logo{
+    width: 100px;
+    margin-left: 20px;
+  }
+  
+  .footer-left{
+    margin-left: 20px;
+  }
+  
+  .list{
+    display: flex;
+  }
+  
+  .list-items{
+    margin: 10px 0px;
+    list-style: none;
+    padding: 0px 5px;
+    color: #ffffff;
+    border-right: none;
+    font-size: 0.5em;
+  }
+  
+  .footer-right{
+    display: flex;
+  }
+  
+  .logos-list{
+    display: flex;
+  }
+}
